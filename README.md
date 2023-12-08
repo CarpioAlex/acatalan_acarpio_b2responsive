@@ -144,6 +144,8 @@ Hemos elegido como temática hacer un 'mock-up' de una página web que se dediqu
 	
 	Es una estructura común, solo que hemos decidido separar las hojas de estilo en una por cada página para los estilos específicos y un estilos.css para los elementos comunes a cada página como podría ser el nav o el footer.
 	Si bien es cierto que según he leído con cada .css extra la página tiene que hacer más requests, tampoco es tan grande y no debería afectar al rendimiento, y así de paso evitamos conflictos en el control de versiones en git, evitando escribir el máximo tiempo posible los dos en la misma hoja a la vez, para no tener que resolver luego los conflictos de versiones.
+
+
 ```
 	│   contacto.html
 │   indice.html
