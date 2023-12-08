@@ -68,13 +68,23 @@ Pantallas grandes:
 
 ![Laptop-1-1440x900_Tienda](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/9d5548ae-5dc7-4ebe-a9a5-bcb9686694c2)
 
+
+
 Movil: 
 
 ![iPhone-XR-414x896](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/f92335d0-d53e-4776-8c7e-66bf50e16967)
 
+![iPhone-XR-XS-Max-414x1025](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/fe27f8f2-1ce3-4eb0-b47e-404cf745fb50)
+
+![iPhone-XR-XS-Max-414x1025](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/01647fc2-04c1-41f4-9100-9c6b048097b3)
+
+
 Tablet:
 
 ![iPad-Pro-(12 9-inch)-960x1366](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/584e3959-db5a-43d4-bc1a-751a8a8c683c)
+
+![Large-Screen-720x1031](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/f2f4d7b8-3696-4f35-bc3c-b13e1747a5d9)
+
 
 
 ## División del trabajo
@@ -147,7 +157,7 @@ Hemos elegido como temática hacer un 'mock-up' de una página web que se dediqu
 
 
 ```
-	│   contacto.html
+│   contacto.html
 │   indice.html
 │   nosotros.html
 │   README.md
