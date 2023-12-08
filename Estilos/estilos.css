@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Saira+Stencil+One&family=Teko:wght@300;400;700&display=swap');
 
-   
-
-
-
 
 /* Reglas generales sin media query*/
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: content-box;
-        list-style: none;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    list-style: none;
+}
 
 
 /*Reglas para las fuentes */
@@ -28,10 +24,10 @@
   h1, h2, h3, h4 {
     font-family: Teko;
   }
-  
-  body {
+
+body {
     font-family: Oxanium;
-  }
+}
 
     html {
         font-size: 62.5%;
@@ -56,7 +52,7 @@
 
 
     
-.header {
+    .header {
         left: 0;
         top: 0;
         width: 100%;
@@ -74,7 +70,6 @@
 }
 
 
-/*Colocación del logo de la barra de navegación.*/
 
 .nav__logo {
     display: flex;
@@ -105,7 +100,6 @@
     transition: .3s;
 }
 
-/*Efectos al pasar el ratón */
 
 .nav__menu li a:nth-child(1) {
     color: rgb(255, 255, 255);
@@ -150,8 +144,6 @@
         font-size: 1.2em;
     }
     
-    /* Esconde los elementos que abrirán y cerrarán el menu en pantallas de móvil. (Más info en la docu.)*/
-
 .nav__menu--abrir, .nav__menu--cerrar {
         display: none;
     }
@@ -203,7 +195,7 @@ footer i {
     align-items: center;
 }
 
-/*Hace la segunda y tercera columna más chica, para que todas nos quepan en fila.*/
+/*Hace la segunda y tercera columna más chica.*/
 .columna__footer:nth-child(2), .columna__footer:nth-child(3) {
     flex-basis: 15%;
 }
@@ -250,11 +242,9 @@ footer aside i {
     color: black;
 }
 
-/* Para que todo quepa en el footer. */
-
 footer aside {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Hace que los iconos aparezcan en fila */
     justify-content: space-between; 
 }
 
@@ -280,7 +270,6 @@ footer hr {
     text-align: center; /* Centra los títulos */
 }
 
-/*Partes decorativas del footer, la barritay la animación.*/
 
 .decoracion__footer--titulo {
     width: 15em;
@@ -314,7 +303,7 @@ footer hr {
     }
 }
 
-/*Subdivisión del footer, la he añadido en el último momento.*/
+
 
 .footer_color {
     background-color: #172a46;
@@ -378,7 +367,6 @@ footer hr {
     .nav__menu:target {
         opacity: 1;
         pointer-events: all;
-
     }
     
     /* Reglas footer movil */
@@ -450,7 +438,7 @@ footer hr {
 
     
     /* Reglas enlaces menu navbar */
-    
+
     .nav__menu {
         flex-direction: column;
         position: fixed;
@@ -460,12 +448,11 @@ footer hr {
         height: 100%;
         align-items: center;
         overflow-y: auto;
-        background-color: #e6a7a7 ;
+        background-color: #e6a7a7;
         opacity: 0;
         pointer-events: none;
         justify-content: center;
-
-        
+        z-index: 100;
     }
     
     .nav__menu li {
@@ -489,7 +476,6 @@ footer hr {
     .nav__menu:target {
         opacity: 1;
         pointer-events: all;
-
     }
     
     /* Reglas footer movil */
@@ -730,7 +716,6 @@ footer hr {
     }
 
     .nav__menu li a {
-        display: flex; 
         align-items: center;
         gap: 10px; 
         font-size: 2em;
@@ -740,10 +725,4 @@ footer hr {
         align-items: center; /* Alinea los elementos a lo largo del eje transversal */
     }
 
-    /* Arregla un bug en el indice.html*/
-    .nav__menu--cerrar {
-        display: none !important;
-    }
-
 }
-
