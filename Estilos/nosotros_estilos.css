@@ -113,13 +113,13 @@
 /*Fin videos*/
 
 /*Tarjetas */
-
+/*Contenedor padre de tarjetas.*/
 .fila_tarjetas {
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+/*Como fila_tarjetas es el contenedor padre, .tarjeta es a la vez item y contenedor de los items de dentro de la propia tarjeta. Como el cuerpo, el inicio y la cabecera y el botón.*/
 .tarjeta {
     flex: 1 0 calc(25% - 20px);
     margin: 10px;
@@ -161,7 +161,7 @@
     margin-top: 30px;
 }
 
-
+/*Animación con hover para las tarjetas.*/
 
 .tarjeta:hover {
     transform: scale(1.05);
@@ -187,7 +187,7 @@
 
 /*Modificaciones y ajustes individuales */
 
-.mapa {
+.mapa { /*El iframe del mapa se comporta un poco raro con el texto que tiene encima, así que lo pongo como elemento en bloque y que simplemente este debajo.*/
     display: block;
     text-align: center;
 }
