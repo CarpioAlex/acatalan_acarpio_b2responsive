@@ -82,7 +82,7 @@ Hemos decidido dividir el trabajo a realizar de la siguiente forma:
 
 | inicio.html | tienda.html | nosotros.html | Documentacion |
 |-------------|-------------|---------------|---------------|
-|  Antonio           | Alex            | Conjunto              | Alex 60% Antonio 40%|
+|  Antonio           | Alex            | Conjunto              | Alex 50% Antonio 50%|
 
 
 | Nav + responsividad del nav | Footer | 
@@ -91,6 +91,10 @@ Hemos decidido dividir el trabajo a realizar de la siguiente forma:
 
 
 **Detalle y registro de trabajo:**
+
+
+![Inventario_web xlsx](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/17df8764-0c50-4e3b-8fed-9088d6d0dbc0)
+
 
 
 
