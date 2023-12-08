@@ -93,7 +93,36 @@ Hemos decidido dividir el trabajo a realizar de la siguiente forma:
 **Detalle y registro de trabajo:**
 
 
-![Inventario_web xlsx](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/abad76f7-1a6e-4360-b722-45afbda60873)
+
+| Nombre   | Pagina        | Tarea                                                                                                               | Tiempo   | Dia     |
+|----------|---------------|---------------------------------------------------------------------------------------------------------------------|----------|---------|
+| Antonio  | Indice        | Creación del esqueleto HTML y estructurar las etiquetas semanticas                                                 | 40 Mins  | 21/11   |
+| Antonio  | Indice        | Agregados enlaces de estilos y metaetiquetas                                                                       | 20 Min   | 21/11   |
+| Antonio  | Indice        | Crear el CSS y empezar con la creación de la clase .indice__lideres                                                | 30 min   | 21/11   |
+| Alex     | Tienda        | Empezar esqueleto de tienda.html. Añadidos primera mitad de elementos semanticos grandes, + merge rama alex con rama main. | 50 mins  | 21/11   |
+| Alex     | Tienda        | Añadido zona de productos.                                                                                         | 40 mins  | 22/11   |
+| Antonio  | Indice        | Estilización del fondo, tamaño y posición de la imagen y configuración de estilos para el texto h1                  | 20 min   | 22/11   |
+| Antonio  | Indice        | Estilización de section y sus elementos                                                                            | 25 mins  | 22/11   |
+| Conjunto | Organizacion  | Tiempo de clase. Organización en sucio de los contenidos en general de la web y puesta en común de ideas.           | 50 mins  | 22/11   |
+| Alex     | Organizacion  | Movido CSS de la web tienda a un CSS aislado, y reorganizado la estructura de carpetas.                             | 10 mins  | 23/11   |
+| Alex     | Tienda        | Añadido sección de productos y banner, empezada la media query de tablet.                                          | 50 mins  | 23/11   |
+| Antonio  | Indice        | Estilización de article y sus imágenes                                                                             | 25 mins  | 23/11   |
+| Antonio  | Indice        | Creación de reglas para el hover de imágenes y divs                                                                | 30 mins  | 23/11   |
+| Antonio  | Indice        | Creación de animaciones para elementos article pares e impares                                                     | 50 mins  | 24/11   |
+| Conjunto | Diseño general| Tiempo libre de clase. (No LLM) Decidida paleta de colores general para la web.                                     | 20 mins  | 24/11   |
+| Antonio  | Indice        | Estilos responsivos para pantallas de hasta 768 píxeles                                                            | 50 min   | 26/11   |
+| Alex     | Tienda        | Terminado el layout general. To-do: Ajustarlo todo a los breakpoints de cada media query para terminar de hacerla responsive. | 30 mins  | 26/11   |
+| Alex     | Prototipo footer | Empezado el prototipo de footer                                                                                   | 60 mins  | 26/11   |
+| Alex     | Media query 500px | Ajustadas algunas cosas raras que pasaban cuando había menos de 500px de ancho.                                  | 70 mins  | 26/11   |
+| Conjunto | Tienda        | Arreglada entre los dos imagen que desbordaba de su contenedor en una media query.- (Tiempo de clase)              | 15 mins  | 27/11   |
+| Alex     | Nosotros      | Empezado la página "Nosotros" añadido bloques grandes de elementos y empezado el estilizado básico en su hoja CSS. (Hora de clase LLM) (Por hacer: Ahora mismo es 0 responsive.) | 45       | 27/11   |
+| Alex     | Tienda + nav  | Arreglado aun más las media queries y añadido segundo tipo de menu lateral para que se vea en Ipad.               | 90 mins  | 27/11 - 28/11 |
+| Alex     | Tienda, nosotros, nav, footer | Añadido y buscado contenido multimedia y ajustado posiciones y media queries, añadidas tarjetas                 | 120 mins | 03/12   |
+| Alex     | General       | Añadido todo el contenido que faltaba, imagenes, texto, añadidos retoques a media queries, añadido media query a tienda.html que agrega unos marcos. | 190 mins | 06/12   |
+| Antonio  | Errores de sintaxis de html, CSS y logicos. | "Validado y arreglado el css de errores dificiles de encontrar como: un error en la propiedad transition. La línea original era: transition: clip-path: .2s; Se corrigió eliminando los dos puntos después de clip-path: transition: clip-path .2s; Tambien he añadido z-index: 100; a la media query de 600 px para que no salgan cosas no deseadas al mostrar el menu" | 240 min  | 7/12    |
+| Antonio  | Nosotros      | Modificar los nombres de variables relacionadas con mensajes de imágenes que tienen la transicion de mostrar el mensaje al hacer zoom para hacerlos más específicos. Por ejemplo, se cambié el nombre de la variable de --transition a --mensaje-transition. | 30 min   | 8/12    |
+| Alex     | Documentacion y toques finales | Terminada la documentación, añadiendo toques finales a las paginas.                                               | 240 mins | 7/12    |
+
 
 
 
