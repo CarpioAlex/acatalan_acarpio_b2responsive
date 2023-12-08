@@ -100,7 +100,7 @@ body {
     transition: .3s;
 }
 
-
+/*Decoraciones de los enlaces con hover.*/
 .nav__menu li a:nth-child(1) {
     color: rgb(255, 255, 255);
 }
@@ -195,7 +195,7 @@ footer i {
     align-items: center;
 }
 
-/*Hace la segunda y tercera columna más chica.*/
+/*Hace la segunda y tercera columna más chica para que quepa todo en fila.*/
 .columna__footer:nth-child(2), .columna__footer:nth-child(3) {
     flex-basis: 15%;
 }
@@ -363,7 +363,7 @@ footer hr {
         padding: 20px 15px;
         
     }
-
+/*Línea que hace que cuando hagas click aparezca el menú. (Mas info en el readme)*/
     .nav__menu:target {
         opacity: 1;
         pointer-events: all;
@@ -649,7 +649,7 @@ footer hr {
 
 
 @media (min-width: 769px) {
-    .nav { /*Arregla un bug del nav.*/
+    .nav { /*Arregla un bug del nav para que no se desborde la letra.*/
         font-size: 0.8em;
 
     }
@@ -722,7 +722,7 @@ footer hr {
     }
 
     .nav__menu {
-        align-items: center; /* Alinea los elementos a lo largo del eje transversal */
+        align-items: center;
     }
 
 }
