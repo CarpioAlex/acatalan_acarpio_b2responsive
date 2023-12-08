@@ -1,12 +1,10 @@
     /* Reglas generales*/
 
-
-    /*Margen general a partir del primer article.*/   
     body article {
         margin: 2%;
     }
 
-/*Estilizado de los titulos.*/
+
     h1, h2, h3, h4, h5 {
         font-family: Oxanium;
         text-align: center;
@@ -20,7 +18,7 @@
         margin: 40px auto;
         display: flex;
     }
-/*Animación del banner */
+
     .banner__animado--imagen {
         width: 80px;
         height: 100%;
@@ -33,8 +31,8 @@
         align-items: center;
 
         --mensaje: "Airsoft Mallorca: Conócenos";
-        --clip: circle(0 at center);
-        --transition: clip-path: .2s;
+        --mensaje-clip: circle(0 at center);
+        --mensaje-transition: clip-path .2s;
     }
 
     .banner__animado--imagen::before {
@@ -44,8 +42,8 @@
         align-items: center;
         background-color: #e5e0e0a3;
         color:  #102441;
-        clip-path: var(--clip);
-        transition: var(--transition);
+        clip-path: var(--mensaje-clip);
+        transition: var(--mensaje-transition);
         text-align: center;
         text-transform: uppercase;
         font-size: 20px;
@@ -54,8 +52,8 @@
 
     .banner__animado--imagen:hover {
         flex: 6;
-        --clip: circle(100% at center)
-        --transition: clip-path .4s .5s;
+        --mensaje-clip: circle(100% at center);
+        --mensaje-transition: clip-path .4s .5s;
     }
 
     .banner__animado--imagen:nth-child(1) {
@@ -116,13 +114,11 @@
 
 /*Tarjetas */
 
-/*Contenedor padre de las tarjetas.*/
 .fila_tarjetas {
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-around;
 }
-/*Contenedor dentro del contenedor padre para colocar los items de cada tarjeta. Aquí cada tarjeta pertenece a un contenedor general, y a su vez los elementos individuales de cada tarjeta pertenecen al contenedor de cada tarjeta. Por lo tanto .tarjeta será item hijo de .fila_tarjetas, y contenedor de .tarjeta_inicio y tarjeta._cuerpo.*/
 
 .tarjeta {
     flex: 1 0 calc(25% - 20px);
@@ -161,6 +157,7 @@
     color: white;
     padding: 10px;
     width: 100%;
+    cursor: pointer; 
     margin-top: 30px;
 }
 
@@ -257,8 +254,8 @@
     }
     .banner__animado--imagen:hover {
         flex: none;
-        --clip: none;
-        --transition: none;
+        --mensaje-clip: none;
+        --mensaje-transition: none;
     }
 
 
@@ -277,5 +274,3 @@
         text-align: justify; 
     }
 }
-
-
