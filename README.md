@@ -145,86 +145,101 @@ Hemos elegido como temática hacer un 'mock-up' de una página web que se dediqu
 	Es una estructura común, solo que hemos decidido separar las hojas de estilo en una por cada página para los estilos específicos y un estilos.css para los elementos comunes a cada página como podría ser el nav o el footer.
 	Si bien es cierto que según he leído con cada .css extra la página tiene que hacer más requests, tampoco es tan grande y no debería afectar al rendimiento, y así de paso evitamos conflictos en el control de versiones en git, evitando escribir el máximo tiempo posible los dos en la misma hoja a la vez, para no tener que resolver luego los conflictos de versiones.
 	```
-	  | contacto.html
-	│   indice.html
-	│   nosotros.html
-	│   README.md
-	│   tienda.html
-	│
-	├───Documentacion
-	│   │   Captura web_2-12-2023_215816_.jpeg
-	│   │   video1_readme.mp4
-	│   │   video2_readme_moviles.mp4
-	│   │   video3_readme_horizontal.mp4
-	│   │   video4_readme_tablets.mp4
-	│   │
-	│   └───Capturas_PaginaCompleta
-	│       ├───Movil
-	│       │   │   -screenshots.zip
-	│       │   │
-	│       │   └───-screenshots
-	│       │           Galaxy-S5-360x640.png
-	│       │           Galaxy-S9-S9+-360x740.png
-	│       │           iPhone-XR-414x896.png
-	│       │           iPhone-XR-XS-Max-414x1025.png
-	│       │           Pixel-3-3-XL-393x786.png
-	│       │
-	│       ├───Pantallas_grandes
-	│       │       Laptop-1-1440x900.png
-	│       │       Laptop-1-1440x900_Tienda.png
-	│       │
-	│       └───Tablet
-	│           ├───-screenshots
-	│           │       iPad-Mini-768x1024.png
-	│           │       iPad-Pro-(12.9-inch)-960x1366.png
-	│           │       Nexus-7-600x960.png
-	│           │
-	│           └───-screenshots (1)
-	│                   iPad-Mini-768x1024.png
-	│                   iPad-Pro-(12.9-inch)-960x1366.png
-	│
-	├───Estilos
-	│       estilos.css
-	│       nosotros_estilos.css
-	│       tienda_estilos.css
-	│
-	└───Recursos
-	    ├───Audios
-	    ├───Imagenes
-	    │   │   logo.png
-	    │   │   logo_grande_nobg.png
-	    │   │   logo_grande_nobg2.png
-	    │   │   logo_pequeño_nobg.png
-	    │   │   menu_movil_abrir.svg
-	    │   │   menu_movil_cerrar.svg
-	    │   │   placeholder.jpg
-	    │   │
-	    │   ├───Imagenes_Nosotros
-	    │   │       conocenos3.jpeg
-	    │   │       nosotros1.webp
-	    │   │       nosotros2.jpg
-	    │   │       tarjera3.jpg
-	    │   │       tarjeta1.jpg
-	    │   │       tarjeta2.jpg
-	    │   │
-	    │   └───Imagenes_Tienda
-	    │           banner_final.png
-	    │           categoria1.jpg
-	    │           categoria2.jpg
-	    │           categoria3.jpg
-	    │           novedad1.jpg
-	    │           novedad2.jpeg
-	    │           novedad3.jpg
-	    │           novedad4.jpg
-	    │           producto1.jpg
-	    │           producto2.jpg
-	    │           producto3.jpg
-	    │           producto4.jpg
-	    │
-	    └───Videos
-	            video_nosotros1.mp4
-	            video_nosotros2.mp4
-	            video_nosotros3.mp4
+	│   contacto.html
+│   indice.html
+│   nosotros.html
+│   README.md
+│   tienda.html
+│
+├───Documentacion
+│   │   Captura web_2-12-2023_215816_.jpeg
+│   │   video1_readme.mp4
+│   │   video2_readme_moviles.mp4
+│   │   video3_readme_horizontal.mp4
+│   │   video4_readme_tablets.mp4
+│   │   videonav_readme.mp4
+│   │   video_banner_Readme.mp4
+│   │   video_tarjetas_readme.mp4
+│   │
+│   └───Capturas_PaginaCompleta
+│       ├───Movil
+│       │   │   -screenshots.zip
+│       │   │
+│       │   └───-screenshots
+│       │           Galaxy-S5-360x640.png
+│       │           Galaxy-S9-S9+-360x740.png
+│       │           iPhone-XR-414x896.png
+│       │           iPhone-XR-XS-Max-414x1025.png
+│       │           Pixel-3-3-XL-393x786.png
+│       │
+│       ├───Pantallas_grandes
+│       │       Laptop-1-1440x900.png
+│       │       Laptop-1-1440x900_Tienda.png
+│       │
+│       └───Tablet
+│           ├───-screenshots
+│           │       iPad-Mini-768x1024.png
+│           │       iPad-Pro-(12.9-inch)-960x1366.png
+│           │       Nexus-7-600x960.png
+│           │
+│           └───-screenshots (1)
+│                   iPad-Mini-768x1024.png
+│                   iPad-Pro-(12.9-inch)-960x1366.png
+│
+├───Estilos
+│       estilos.css
+│       indice_estilos.css
+│       nosotros_estilos.css
+│       tienda_estilos.css
+│
+└───Recursos
+    ├───Imagenes
+    │   │   logo.png
+    │   │   logo_grande_nobg.png
+    │   │   logo_grande_nobg2.png
+    │   │   logo_pequeño_nobg.png
+    │   │   menu_movil_abrir.svg
+    │   │   menu_movil_cerrar.svg
+    │   │   placeholder.jpg
+    │   │
+    │   ├───Imagenes_Indice
+    │   │       armamento.jpg
+    │   │       armamento2.png
+    │   │       armamento3.jpg
+    │   │       blindaje.png
+    │   │       blindaje2.jpg
+    │   │       blindaje3.jpg
+    │   │       lideres.jpg
+    │   │       youtube_airsoft_guia.jpg
+    │   │       youtube_canal.jpg
+    │   │       youtube_que_es_airsoft.jpg
+    │   │
+    │   ├───Imagenes_Nosotros
+    │   │       conocenos3.jpeg
+    │   │       nosotros1.webp
+    │   │       nosotros2.jpg
+    │   │       tarjera3.jpg
+    │   │       tarjeta1.jpg
+    │   │       tarjeta2.jpg
+    │   │
+    │   └───Imagenes_Tienda
+    │           banner_final.png
+    │           categoria1.jpg
+    │           categoria2.jpg
+    │           categoria3.jpg
+    │           novedad1.jpg
+    │           novedad2.jpeg
+    │           novedad3.jpg
+    │           novedad4.jpg
+    │           producto1.jpg
+    │           producto2.jpg
+    │           producto3.jpg
+    │           producto4.jpg
+    │
+    └───Videos
+            video_nosotros1.mp4
+            video_nosotros2.mp4
+            video_nosotros3.mp4
 
 ----
 
