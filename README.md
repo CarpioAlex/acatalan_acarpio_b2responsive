@@ -93,7 +93,8 @@ Hemos decidido dividir el trabajo a realizar de la siguiente forma:
 **Detalle y registro de trabajo:**
 
 
-![Inventario_web xlsx](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/17df8764-0c50-4e3b-8fed-9088d6d0dbc0)
+![Inventario_web xlsx](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/abad76f7-1a6e-4360-b722-45afbda60873)
+
 
 
 
