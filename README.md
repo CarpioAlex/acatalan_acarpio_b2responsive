@@ -76,14 +76,14 @@ Movil:
 
 ![iPhone-XR-XS-Max-414x1025](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/fe27f8f2-1ce3-4eb0-b47e-404cf745fb50)
 
-![iPhone-XR-XS-Max-414x1025](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/01647fc2-04c1-41f4-9100-9c6b048097b3)
+![1](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/a4bd8472-082a-43b2-8729-50e41b6ef5e9)
 
 
 Tablet:
 
 ![iPad-Pro-(12 9-inch)-960x1366](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/584e3959-db5a-43d4-bc1a-751a8a8c683c)
 
-![Large-Screen-720x1031](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/f2f4d7b8-3696-4f35-bc3c-b13e1747a5d9)
+![2](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/8002455d-e9aa-4529-a94d-0a03fa58a338)
 
 
 
