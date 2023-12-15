@@ -34,6 +34,7 @@ La hemos probado en distintos dispositivos y se adapta bien a distintas resoluci
 
 Video general de la página:
 
+![450_1000](https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/b70d92ca-cff6-474c-b588-cb0579e87b32)
 
 
 https://github.com/CarpioAlex/acatalan_acarpio_b2responsive/assets/147094237/be56989d-5250-4765-85b1-70474e1cf9a9
